@@ -77,6 +77,7 @@ function Planet({ texture, size, visible, planetData }: PlanetProps) {
           <div className={`planet-info ${hovered ? 'visible' : ''}`}>
             <h2>{planetData.name}</h2>
             <p>{planetData.description}</p>
+            <p> </p>
             <ul>
               <li><strong>Diameter:</strong> {planetData.diameter}</li>
               <li><strong>Day Length:</strong> {planetData.dayLength}</li>
